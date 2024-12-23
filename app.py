@@ -1,6 +1,7 @@
 # Importar modulos para trabajar con planillas de cálculo, csv y texto. Incluir del sistema y JSON
 import csv
 import json
+
 # Constantes y variables
 extensiones = [
     dict(id=0,tipo="csv"),
@@ -8,6 +9,7 @@ extensiones = [
     dict(id=2,tipo="txt"),
     dict(id=3,tipo="xls")  #, y asi sucesivamente
 ]
+
 # Sub procesos, funciones y lambdas
 def extensiones_permitidas(extensions:list):
     print(f"Tipos de archivos permitidos:")
@@ -37,9 +39,6 @@ def csv_to_json(ruta_csv, ruta_json):
         jsonf.write(json.dumps(data, indent=4))
 
 
-# Proceso principal
-
-# Llamada desde la condicional del script
 def procesar_archivo(ruta:str,tipo_inicial:int, tipo_final:int):
     if tipo_final == 1 and tipo_inicial == 0:  # conversion a JSON
         ruta_sin_extension = ruta[:-4:]
@@ -48,10 +47,12 @@ def procesar_archivo(ruta:str,tipo_inicial:int, tipo_final:int):
     else:
         print("Tipo de archivo no permitido.")
 
+
+# Proceso principal
 def main():
     extensiones_permitidas(extensions=extensiones)
     procesar_archivo("tmp/archivo.csv",tipo_inicial=0, tipo_final=1)
 
-
+# Llamada desde la condicional del script
 if __name__ == "__main__":
     main()
