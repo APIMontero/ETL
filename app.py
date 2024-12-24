@@ -38,6 +38,9 @@ def csv_to_json(ruta_csv, ruta_json):
     with open(ruta_json, 'w', encoding='utf-8') as jsonf:
         jsonf.write(json.dumps(data, indent=4))
 
+def json_to_csv(ruta_json, ruta_csv):
+    pass
+
 
 def procesar_archivo(ruta:str,tipo_inicial:int, tipo_final:int):
     if tipo_final == 1 and tipo_inicial == 0:  # conversion a JSON
