@@ -18,6 +18,18 @@ def extensiones_permitidas(extensions: list):
     for extension in extensions:
         print(f'{int(extension["id"]) + 1}. {extension["tipo"]}')
 
+def xls_to_csv():
+    pass
+
+def xls_to_json():
+    pass
+
+def csv_to_xls():
+    pass
+
+def json_to_xls():
+    pass
+
 
 def csv_to_json(ruta_csv, ruta_json):
     # create a dictionary
