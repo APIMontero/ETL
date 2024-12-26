@@ -1,8 +1,6 @@
 # Importar modulos para trabajar con planillas de cálculo, csv y texto. Incluir del sistema y JSON
 import csv
 import json
-# from pprint import pprint
-
 import pandas as pd
 
 # Constantes y variables
