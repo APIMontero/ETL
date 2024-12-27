@@ -18,17 +18,65 @@ def extensiones_permitidas(extensions: list):
     for extension in extensions:
         print(f'{int(extension["id"]) + 1}. {extension["tipo"]}')
 
-def xls_to_csv():
-    pass
+def xls_to_csv(ruta_xls, ruta_csv):
+    """
+    :param ruta_xls: Independiente del tipo de excel, sea moderno o no, el proceso es el mismo.
+    :param ruta_csv: Ruta del archivo CSV como salida.
+    :return: Nada
+    """
+    # Cargar el archivo Excel
+    df = pd.read_excel(ruta_xls)
+    # Guardar como CSV
+    df.to_csv(ruta_csv, index=False, sep=',')
 
-def xls_to_json():
-    pass
 
-def csv_to_xls():
-    pass
+def xls_to_json(ruta_xls, ruta_json):
+    # Leer el archivo Excel
+    df = pd.read_excel(ruta_xls)
+    # Convertir a JSON
+    json_data = df.to_json(orient='records', indent=4, date_format='iso')  # Ver 'Otras formas de transpilar...' más abajo.
+    # Imprimir o guardar el JSON
+    # print(json_data)
+    # o Guardarlo a un archivo JSON
+    with open(ruta_json, 'w') as f:
+        f.write(json_data)
+    # OJO::> orient='records': Este argumento indica que cada fila del DataFrame se convertirá en un diccionario dentro de una lista.
+    """
+    Otras formas de transpilar...
+    # Leer el archivo Excel, especificando la hoja y los nombres de las columnas
+    df = pd.read_excel('mi_archivo.xlsx', sheet_name='Hoja1', usecols=['ColumnaA', 'ColumnaB'])
+    
+    # Convertir a JSON, personalizando los nombres de las columnas en el JSON
+    json_data = df.to_json(orient='records', indent=4, date_format='iso')
+    """
 
-def json_to_xls():
-    pass
+def csv_to_xls(ruta_csv, ruta_xls, es_xlsx=True):
+    # Cargar el archivo CSV
+    df = pd.read_csv(ruta_csv)
+    if es_xlsx:
+        # Guardar el DataFrame como un archivo XLSX
+        df.to_excel(ruta_xls, index=False)
+    else:
+        """
+            Especificar el formato: Si deseas guardar el archivo en formato XLS (en lugar de XLSX), 
+            puedes usar el argumento engine='openpyxl' en la función to_excel().
+        """
+        # Guardar el DataFrame como un archivo XLS
+        df.to_excel(ruta_xls, engine='openpyxl', index=False)
+
+def json_to_xls(ruta_json, ruta_xls, es_xlsx=True):
+    # Carga el archivo JSON
+    with open('datos.json', 'r') as f:
+        data = json.load(f)
+
+    # Convierte los datos JSON en un DataFrame de pandas
+    df = pd.DataFrame(data)
+    if es_xlsx:
+        # Guardar el DataFrame como un archivo XLSX
+        df.to_excel(ruta_xls, index=False)
+    else:
+        # Guardar el DataFrame como un archivo XLS
+        df.to_excel(ruta_xls, engine='openpyxl', index=False)
 
 
 def csv_to_json(ruta_csv, ruta_json):
