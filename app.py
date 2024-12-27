@@ -66,7 +66,7 @@ def csv_to_xls(ruta_csv, ruta_xls, es_xlsx=True):
 
 def json_to_xls(ruta_json, ruta_xls, es_xlsx=True):
     # Carga el archivo JSON
-    with open('datos.json', 'r') as f:
+    with open(ruta_json, 'r') as f:
         data = json.load(f)
 
     # Convierte los datos JSON en un DataFrame de pandas
