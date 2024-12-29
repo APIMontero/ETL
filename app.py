@@ -90,7 +90,7 @@ def csv_to_json(ruta_csv, ruta_json):
         # Convert each row into a dictionary
         # and add it to data
         for rows in csv_reader:
-            # Assuming a column named 'No' to
+            # Assuming a column named 'id' to
             # be the primary key
             key = rows['id']
             data[key] = rows
