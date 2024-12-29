@@ -1,0 +1,250 @@
+{
+    "0": {
+        "id": "0",
+        "name": "accounts.claveunica.gob.cl",
+        "url": "https://accounts.claveunica.gob.cl/accounts/login",
+        "username": "12.255.652-2",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "1": {
+        "id": "1",
+        "name": "accounts.claveunica.gob.cl",
+        "url": "https://accounts.claveunica.gob.cl/accounts/login",
+        "username": "21.820.761-8",
+        "password": "joseGuemplay23*",
+        "note": ""
+    },
+    "2": {
+        "id": "2",
+        "name": "accounts.claveunica.gob.cl",
+        "url": "https://accounts.claveunica.gob.cl/accounts/login/",
+        "username": "12255652-2",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "3": {
+        "id": "3",
+        "name": "accounts.claveunica.gob.cl",
+        "url": "https://accounts.claveunica.gob.cl/accounts/login/",
+        "username": "218207618",
+        "password": "joseGuemplay23*",
+        "note": ""
+    },
+    "4": {
+        "id": "4",
+        "name": "accounts.google.com",
+        "url": "https://accounts.google.com/v3/signin/challenge/pwd",
+        "username": "david.montero.urrutia@gmail.com",
+        "password": "DEMU1972_",
+        "note": ""
+    },
+    "5": {
+        "id": "5",
+        "name": "afpcl1.provida.cl",
+        "url": "https://afpcl1.provida.cl/pkmslogin.form",
+        "username": "12255652-2",
+        "password": "DEMU1972",
+        "note": ""
+    },
+    "6": {
+        "id": "6",
+        "name": "afpcl2.provida.cl",
+        "url": "https://afpcl2.provida.cl/ppaf_cl_ws/ppaf_cl_web/PortalLogon",
+        "username": "12255652-2",
+        "password": "DEMU1972",
+        "note": ""
+    },
+    "7": {
+        "id": "7",
+        "name": "auth.linktr.ee",
+        "url": "https://auth.linktr.ee/login",
+        "username": "david.montero.urrutia@gmail.com",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "8": {
+        "id": "8",
+        "name": "codigofacilito.com",
+        "url": "https://codigofacilito.com/users/password/edit",
+        "username": "",
+        "password": "DEMU1972",
+        "note": ""
+    },
+    "9": {
+        "id": "9",
+        "name": "discord.com",
+        "url": "https://discord.com/invite/JpnY3YqzCN/login",
+        "username": "chechilenop@gmail.com",
+        "password": "gn221972_",
+        "note": ""
+    },
+    "10": {
+        "id": "10",
+        "name": "duoclaboral.cl",
+        "url": "https://duoclaboral.cl/",
+        "username": "chechilenop@gmail.com",
+        "password": "anejo2016_",
+        "note": ""
+    },
+    "11": {
+        "id": "11",
+        "name": "github.com",
+        "url": "https://github.com/login",
+        "username": "APIMontero",
+        "password": "Demu1972_",
+        "note": ""
+    },
+    "12": {
+        "id": "12",
+        "name": "gitlab.com",
+        "url": "https://gitlab.com/users/sign_in",
+        "username": "chechilenop@gmail.com",
+        "password": "GN221972_",
+        "note": ""
+    },
+    "13": {
+        "id": "13",
+        "name": "http://localhost",
+        "url": "http://localhost/phpmyadmin/index.php",
+        "username": "david",
+        "password": "2972",
+        "note": "Server PHPMyAdmin"
+    },
+    "14": {
+        "id": "14",
+        "name": "http://localhost:631",
+        "url": "http://localhost:631/",
+        "username": "david",
+        "password": "2972",
+        "note": ""
+    },
+    "15": {
+        "id": "15",
+        "name": "id.churchofjesuschrist.org",
+        "url": "https://id.churchofjesuschrist.org/oauth2/default/v1/authorize",
+        "username": "davidmonterourrutia",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "16": {
+        "id": "16",
+        "name": "identity.provida.cl",
+        "url": "https://identity.provida.cl/public/login",
+        "username": "12255652-2",
+        "password": "DEMU1972",
+        "note": ""
+    },
+    "17": {
+        "id": "17",
+        "name": "l.doctoralia.cl",
+        "url": "https://l.doctoralia.cl/complete-password",
+        "username": "",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "18": {
+        "id": "18",
+        "name": "login.airavirtual.com",
+        "url": "https://login.airavirtual.com/",
+        "username": "chechilenop@gmail.com",
+        "password": "gn221972_",
+        "note": ""
+    },
+    "19": {
+        "id": "19",
+        "name": "mi.tarjetafamily.cl",
+        "url": "https://mi.tarjetafamily.cl/login",
+        "username": "12.255.652-2",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "20": {
+        "id": "20",
+        "name": "projecteuler.net",
+        "url": "https://projecteuler.net/sign_in",
+        "username": "APIMontero",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "21": {
+        "id": "21",
+        "name": "puma.wd3.myworkdayjobs.com",
+        "url": "https://puma.wd3.myworkdayjobs.com/Jobs_at_Puma/login",
+        "username": "david.montero.urrutia@gmail.com",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "22": {
+        "id": "22",
+        "name": "sucursalvirtual.tumundo.cl",
+        "url": "https://sucursalvirtual.tumundo.cl/",
+        "username": "12255652-2",
+        "password": "GN221972_",
+        "note": ""
+    },
+    "23": {
+        "id": "23",
+        "name": "webafiliados.afc.cl",
+        "url": "https://webafiliados.afc.cl/WUI.AAP.OVIRTUAL/Default.aspx",
+        "username": "12255652-2",
+        "password": "DeMu972*",
+        "note": ""
+    },
+    "24": {
+        "id": "24",
+        "name": "wizard.fintoc.com",
+        "url": "https://wizard.fintoc.com/d2cef76eedeb6bc61bb4992962ac1a13a4dfc960/index.html",
+        "username": "12.255.652-2",
+        "password": "demu1972",
+        "note": ""
+    },
+    "25": {
+        "id": "25",
+        "name": "www.bancoestado.cl",
+        "url": "https://www.bancoestado.cl/transa/webpay/ist_WebPayTd_login.asp",
+        "username": "12255652-2",
+        "password": "demu1972",
+        "note": ""
+    },
+    "26": {
+        "id": "26",
+        "name": "www.codewars.com",
+        "url": "https://www.codewars.com/join",
+        "username": "APIMontero",
+        "password": "Gn221972_*",
+        "note": ""
+    },
+    "27": {
+        "id": "27",
+        "name": "www.jumbo.cl",
+        "url": "https://www.jumbo.cl/alimento-gato-adulto-purina-one-pollo-y-carne-2-kg-1864049/p",
+        "username": "",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "28": {
+        "id": "28",
+        "name": "www.mercadolibre.com",
+        "url": "https://www.mercadolibre.com/jms/mlc/lgz/msl/login/H4sIAAAAAAAEAzWOPQ7CMAyF7-K5ohJsGRErEweITOOkEU5TJS4FVb07DlLH9_M9ewPOIU5WvjOBAXTODlgEOpgZxeeSbHQaJFarRqFDDq2CBRMJlQpma0OB3JUUalMeuZKWcJHRes6rev9b6sVq6aPchGxXer4jtfQgQlYxiszV9H0ijifG_pzveLk9FC4UYlWY2l9SFoK9U7aKlYLDC0zz9h_P_mv12QAAAA/enter-pass",
+        "username": "974809847",
+        "password": "Gn221972_",
+        "note": ""
+    },
+    "29": {
+        "id": "29",
+        "name": "www.netflix.com",
+        "url": "https://www.netflix.com/login",
+        "username": "joseguemplay@gmail.com",
+        "password": "joseGuemplay23",
+        "note": ""
+    },
+    "30": {
+        "id": "30",
+        "name": "www.twitch.tv",
+        "url": "https://www.twitch.tv/",
+        "username": "chechilenop2020",
+        "password": "Gn221972_",
+        "note": ""
+    }
+}

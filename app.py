@@ -114,12 +114,12 @@ def json_to_csv(ruta_json, ruta_csv):
 
 
 def procesar_archivo(ruta: str, tipo_inicial: int, tipo_final: int):
+    archivo_parts = ruta.split(".")
+    ruta_sin_extension = archivo_parts[0]
     if tipo_final == 1 and tipo_inicial == 0:  # conversion a JSON
-        ruta_sin_extension = ruta[:-4:]
         csv_to_json(ruta, ruta_json=f"{ruta_sin_extension}.json")
         print(f'Estado actual: {ruta} convertida a JSON y dejada en {ruta_sin_extension + ".json"}.')
     elif tipo_final == 0 and tipo_inicial == 1:  # conversion a JSON
-        ruta_sin_extension = ruta[:-5:]
         # print(ruta_sin_extension)
         json_to_csv(ruta_json=ruta, ruta_csv=f"{ruta_sin_extension + '2'}.csv")
         print(f'Estado actual: {ruta} convertida a CSV y dejada en {ruta_sin_extension + "2.csv"}.')
@@ -136,4 +136,5 @@ def main():
 
 # Llamada desde la condicional del script
 if __name__ == "__main__":
-    main()
+    procesar_archivo("tmp/archivo3.csv", tipo_inicial=0, tipo_final=1)
+    # main()
