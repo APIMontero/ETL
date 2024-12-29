@@ -8,9 +8,9 @@ extensiones = [
     dict(id=0, tipo="csv"),
     dict(id=1, tipo="json"),
     dict(id=2, tipo="txt"),
-    dict(id=3, tipo="xls")  #, y asi sucesivamente
+    dict(id=3, tipo="xls"),
+     dict(id=3, tipo="xlsx") #, Faltaria agregar los tipos opendocument: odt, ods, odp, etc
 ]
-
 
 # Sub procesos, funciones y lambdas
 def extensiones_permitidas(extensions: list):
