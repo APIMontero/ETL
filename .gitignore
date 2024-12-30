@@ -6,6 +6,8 @@
 .Trashes
 .svn
 .venv
+.vscode
+.idea
 .ropeproject/
 __pycache__
 *~
@@ -41,5 +43,10 @@ cover/
 .dmypy.json
 dmypy.json
 
+freeze.txt
 pyrightconfig.json
-ejecutar.sh
+tmp/*2.csv
+tmp/*2.json
+tmp/*3.csv
+tmp/*3.json
+# ejecutar.sh
